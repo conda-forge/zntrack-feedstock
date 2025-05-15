@@ -1,5 +1,5 @@
 {% set name = "zntrack" %}
-{% set version = "0.8.6" %}
+{% set version = "0.8.7" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zntrack-{{ version }}.tar.gz
-  sha256: 681dbc9310654dafb0178db17fb2c18ec7c2b3accf32a24ac00a61849c930046
+  sha256: fc51eb7a96cf5d3baf24f413895748e7de1404ba931928267f5fcb2e140ab85b
 
 build:
   entry_points:
