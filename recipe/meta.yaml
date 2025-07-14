@@ -1,5 +1,5 @@
 {% set name = "zntrack" %}
-{% set version = "0.8.7" %}
+{% set version = "0.8.8" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/zntrack-{{ version }}.tar.gz
-  sha256: fc51eb7a96cf5d3baf24f413895748e7de1404ba931928267f5fcb2e140ab85b
+  sha256: 01907375bfcc449de474071988bcea2a50b7a49ef88600f5005d93af425adf7e
 
 build:
   entry_points:
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - dvc >=3.59.0
+    - dvc >=3.60.0
     - pyyaml >=6.0.2
     - tqdm >=4.67.1
     - znjson >=0.2.6
